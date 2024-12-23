@@ -1,0 +1,47 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* #ff671f #ffffff #046a38 #06038d */
+
+header{
+    background-color: #ff671f;
+    height: 33.33vh;
+}
+
+main{
+    background-color: #ffffff;
+    height: 33.33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 32.9vh;
+    width: 17vw;
+    background-image: url(LS20241222232510.png);
+    background-size: cover;
+    animation: rotate 5s linear infinite;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}  
+
+div:hover{
+    transform: rotateX('45');
+}
+
+footer{
+    background-color: #138808;
+    height: 33.33vh;
+
+}
