@@ -36,10 +36,6 @@ div{
   }
 }  
 
-div:hover{
-    transform: rotateX('45');
-}
-
 footer{
     background-color: #138808;
     height: 33.33vh;
